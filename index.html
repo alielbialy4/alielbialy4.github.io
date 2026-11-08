@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#080b13">
+<meta name="description" content="Ali Elbialy — backend engineer building Laravel APIs, scalable systems, commerce platforms, and integrations. Explore an interactive engineering portfolio.">
+<meta property="og:title" content="Ali Elbialy — Behind the Systems">
+<meta property="og:description" content="The systems you don't see make the products you love possible. An interactive backend engineering portfolio.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alielbialy4.github.io/">
+<meta property="og:image" content="https://alielbialy4.github.io/og-cover.svg">
+<title>Ali Elbialy // Behind the Systems</title>
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<canvas id="stars" aria-hidden="true"></canvas>
+<div class="spotlight" aria-hidden="true"></div>
+<div class="grain" aria-hidden="true"></div>
+<div class="site-shell" id="top">
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Ali Elbialy, back to top"><span class="brand-glyph">&lt;/&gt;</span> ALI<span class="brand-dot">.</span>EB</a>
+    <nav class="primary-nav" aria-label="Main navigation">
+      <a href="#work">01 / Work</a><a href="#stack">02 / Stack</a><a href="#console">03 / Terminal</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-button theme-button" id="theme-toggle" title="Switch accent color" aria-label="Switch accent color">◐</button>
+      <button class="command-button" id="command-trigger" aria-haspopup="dialog" aria-controls="palette"><span>⌘</span> K <span class="command-label">/ jump</span></button>
+      <a class="header-contact" href="#contact">LET'S TALK <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-left">
+        <div class="intro-tag"><span class="pulse"></span><span>BACKEND ENGINEER</span><span class="intro-separator">//</span><span>EGYPT</span></div>
+        <p class="super-title">THE CODE BEHIND THE EXPERIENCE.</p>
+        <h1 id="hero-title">I BUILD<br>WHAT YOU<br><em>DON'T SEE<span class="hero-period">.</span></em></h1>
+        <p class="hero-desc">Scalable APIs. Complex business rules. Products that don't fall apart when things get real. I'm <strong>Ali Elbialy</strong> — and I engineer the invisible.</p>
+        <div class="hero-links">
+          <a href="#work" class="button primary"><span>EXPLORE THE WORK</span><span aria-hidden="true">↗</span></a>
+          <a href="#console" class="button secondary"><span class="terminal-mark">›_</span> ENTER THE TERMINAL</a>
+        </div>
+        <div class="hero-tech"><span>MY TERRITORY /</span><b>PHP &amp; LARAVEL</b><i></i><b>SAAS</b><i></i><b>COMMERCE</b><i></i><b>INTEGRATIONS</b></div>
+      </div>
+      <div class="hero-right" aria-label="Animated interactive system architecture visualization">
+        <div class="radar-top"><span>FIG 01 — THE ENGINE ROOM</span><span class="on-air"><span class="pulse"></span> SYSTEMS ONLINE</span></div>
+        <div class="orbit-scene" id="orbit-scene" tabindex="0" aria-label="Interactive animated diagram. Move your cursor over the diagram.">
+          <div class="crosshair crosshair-one"></div><div class="crosshair crosshair-two"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="scanning-line"></div>
+          <div class="core-glow"></div>
+          <div class="core"><div class="core-inner"><span class="core-code">&lt;AE/&gt;</span><small>BACKEND</small></div></div>
+          <div class="orbit-node node-api"><span class="node-icon">↗</span><span>API DESIGN</span></div>
+          <div class="orbit-node node-data"><span class="node-icon">◈</span><span>DATA</span></div>
+          <div class="orbit-node node-scale"><span class="node-icon">⬡</span><span>SCALE</span></div>
+          <div class="orbit-node node-secure"><span class="node-icon">⌘</span><span>SECURITY</span></div>
+          <div class="orbit-point point-a"></div><div class="orbit-point point-b"></div>
+        </div>
+        <div class="radar-bottom"><span>INPUT <b>IDEAS</b></span><span>OUTPUT <b>WORKING SYSTEMS</b></span><span class="coordinates">31.0°N · 31.4°E</span></div>
+      </div>
+      <div class="hero-side-label" aria-hidden="true">SCROLL TO EXPLORE ↘</div>
+    </section>
+
+    <div class="ticker" aria-label="Focus areas"><div class="ticker-track" aria-hidden="true"><span>BUILD SMARTER</span><b>✦</b><span>THINK IN SYSTEMS</span><b>✦</b><span>SHIP WITH INTENTION</span><b>✦</b><span>QUESTION EVERYTHING</span><b>✦</b><span>BUILD SMARTER</span><b>✦</b><span>THINK IN SYSTEMS</span><b>✦</b><span>SHIP WITH INTENTION</span><b>✦</b><span>QUESTION EVERYTHING</span><b>✦</b></div></div>
+
+    <section class="section section-work" id="work" aria-labelledby="work-title">
+      <div class="section-heading"><div><span class="section-index">01 / SELECTED DOMAINS</span><h2 id="work-title">Real problems.<br><em>Engineered solutions.</em></h2></div><p>Complexity is inevitable.<br>Chaos is optional.<br><span>SELECT A SYSTEM TO EXPLORE ↘</span></p></div>
+      <div class="work-grid">
+        <button class="work-card" data-case="commerce" aria-controls="case-detail" aria-expanded="false"><span class="work-top"><span class="work-number">001 / OPERATIONS</span><span class="work-arrow">↗</span></span><span class="work-visual visual-commerce" aria-hidden="true"><span class="visual-ring r1"></span><span class="visual-ring r2"></span><span class="visual-center">POS<span>+</span></span><span class="visual-small vs1">INVENTORY</span><span class="visual-small vs2">PAYMENTS</span><span class="visual-small vs3">BRANCHES</span></span><span class="work-bottom"><strong>Commerce &amp; ERP</strong><small>Multi-branch operations · inventory · finance</small><span class="work-chips"><i>DOMAIN DESIGN</i><i>TRANSACTIONS</i></span></span></button>
+        <button class="work-card" data-case="saas" aria-controls="case-detail" aria-expanded="false"><span class="work-top"><span class="work-number">002 / PLATFORMS</span><span class="work-arrow">↗</span></span><span class="work-visual visual-saas" aria-hidden="true"><span class="tenant t1">TENANT A<span>● ● ●</span></span><span class="tenant t2">TENANT B<span>● ● ●</span></span><span class="tenant t3">TENANT C<span>● ● ●</span></span><span class="tenant-hub">◎</span></span><span class="work-bottom"><strong>Multi-Tenant SaaS</strong><small>Isolation · access boundaries · scalable APIs</small><span class="work-chips"><i>RBAC</i><i>ARCHITECTURE</i></span></span></button>
+        <button class="work-card" data-case="integrations" aria-controls="case-detail" aria-expanded="false"><span class="work-top"><span class="work-number">003 / CONNECTIVITY</span><span class="work-arrow">↗</span></span><span class="work-visual visual-integration" aria-hidden="true"><span class="connector a">API</span><span class="connector b">WEBHOOK</span><span class="connector c">OAUTH</span><span class="connector d">QUEUE</span><span class="connector-center">↔</span></span><span class="work-bottom"><strong>Connected Systems</strong><small>Payments · external APIs · async workflows</small><span class="work-chips"><i>RELIABILITY</i><i>INTEGRATIONS</i></span></span></button>
+      </div>
+      <div id="case-detail" class="case-detail" aria-live="polite" hidden></div>
+      <div class="public-projects"><span>WANT TO SEE CODE?</span><a href="https://github.com/alielbialy4?tab=repositories" target="_blank" rel="noopener noreferrer">EXPLORE PUBLIC REPOSITORIES <span>↗</span></a><small>Many commercial projects are private. No client source code is exposed here.</small></div>
+    </section>
+
+    <section class="section section-stack" id="stack" aria-labelledby="stack-title">
+      <div class="section-heading"><div><span class="section-index">02 / THE TOOLBOX</span><h2 id="stack-title">Tools change.<br><em>Principles don't.</em></h2></div><p>The tech is the instrument.<br>Correctness is the music.</p></div>
+      <div class="stack-layout">
+        <div class="stack-nav" role="tablist" aria-label="Technology categories">
+          <button class="stack-tab active" role="tab" aria-selected="true" data-stack="backend">01 <span>BACKEND / DATA</span> <b>↗</b></button>
+          <button class="stack-tab" role="tab" aria-selected="false" data-stack="infrastructure">02 <span>INFRASTRUCTURE</span> <b>↗</b></button>
+          <button class="stack-tab" role="tab" aria-selected="false" data-stack="interface">03 <span>WEB &amp; INTERFACES</span> <b>↗</b></button>
+          <button class="stack-tab" role="tab" aria-selected="false" data-stack="integrations">04 <span>INTEGRATIONS</span> <b>↗</b></button>
+        </div>
+        <div id="stack-panel" class="stack-panel" role="tabpanel" aria-live="polite"></div>
+      </div>
+      <div class="principle-banner"><span class="principle-symbol">∴</span><blockquote>Good engineering is not about making complex things look clever. It's about making them <em>understandable, dependable and easy to evolve.</em></blockquote><span class="principle-label">THE WAY I BUILD</span></div>
+    </section>
+
+    <section class="section section-terminal" id="console" aria-labelledby="console-title">
+      <div class="section-heading"><div><span class="section-index">03 / INTERACTIVE MODE</span><h2 id="console-title">Don't just scroll.<br><em>Run a command.</em></h2></div><p>This terminal actually works.<br>Type <code>help</code> to get started.</p></div>
+      <div class="terminal-window">
+        <div class="terminal-header"><div class="terminal-dots"><i></i><i></i><i></i></div><span>guest@ali-engineering ~ %</span><button id="terminal-clear" aria-label="Clear terminal">CLEAR ↺</button></div>
+        <div class="terminal-output" id="terminal-output" role="log" aria-live="polite" aria-label="Terminal output">
+          <div class="terminal-line muted">Last login: <span id="login-time">today</span> on portfolio</div>
+          <div class="terminal-line"><span class="terminal-green">Connection established.</span> Welcome to Ali's corner of the internet.</div>
+          <div class="terminal-line muted">Available commands: <span class="terminal-green">help</span>, <span class="terminal-green">about</span>, <span class="terminal-green">stack</span>, <span class="terminal-green">projects</span>, <span class="terminal-green">contact</span>, <span class="terminal-green">theme</span>, <span class="terminal-green">clear</span>.</div>
+        </div>
+        <form id="terminal-form" class="terminal-form"><label for="terminal-input">guest@ali:~$</label><input id="terminal-input" name="command" type="text" autocomplete="off" spellcheck="false" maxlength="120" aria-label="Terminal command" placeholder="type a command..." required><span class="terminal-caret" aria-hidden="true">▍</span><button type="submit">RUN ↵</button></form>
+        <div class="terminal-suggestions"><span>QUICK COMMANDS</span><button data-cmd="about">about</button><button data-cmd="projects">projects</button><button data-cmd="stack">stack</button><button data-cmd="surprise">surprise</button></div>
+      </div>
+    </section>
+
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-meta"><span class="section-index">04 / THE NEXT CHAPTER</span><div class="connection"><span class="pulse"></span> OPEN TO CONVERSATIONS</div></div>
+      <p>GOT SOMETHING COMPLEX?</p>
+      <h2 id="contact-title">LET'S MAKE<br><em>IT WORK.</em></h2>
+      <div class="contact-actions"><a class="button primary" href="mailto:ali.elmetwaly.dev@gmail.com?subject=Let's%20build%20something">START A CONVERSATION ↗</a><a class="button secondary" href="https://github.com/alielbialy4" target="_blank" rel="noopener noreferrer">GITHUB PROFILE ↗</a></div>
+      <div class="contact-footer"><span>ALI ELBIALY © <span id="year">2026</span></span><span>CRAFTED WITH CODE &amp; CURIOSITY</span><a href="#top">BACK TO TOP ↑</a></div>
+    </section>
+  </main>
+</div>
+
+<div class="palette-backdrop" id="palette" role="dialog" aria-modal="true" aria-labelledby="palette-title" hidden>
+  <div class="palette-panel"><div class="palette-search"><span>⌘</span><label id="palette-title" for="palette-input" class="sr-only">Jump to a section</label><input id="palette-input" type="text" autocomplete="off" placeholder="Where to? Try work, stack, terminal..." aria-label="Search site actions"><button id="palette-close" aria-label="Close command menu">ESC</button></div><div id="palette-items" class="palette-items"></div><p>↑ ↓ to navigate · ENTER to select · ESC to close</p></div>
+</div>
+<noscript><div class="no-script">The portfolio is readable without JavaScript. Enable JavaScript to use the interactive terminal and command palette.</div></noscript>
+</body>
+</html>
